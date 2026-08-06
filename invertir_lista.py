@@ -12,6 +12,10 @@ def main():
     previo = None
 
     for i in range(len(nums)):
+        if nums[i] <-5000 or nums[i] > 5000:
+            print("El número es inválido")
+            return
+            
         if i == 0:
            head : Node = Node(nums[0], None)
            lista.head = head
