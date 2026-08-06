@@ -13,7 +13,7 @@ def main():
 
     for i in range(len(nums)):
         if nums[i] <-5000 or nums[i] > 5000:
-            print("El número es inválido")
+            print(f"El número {nums[i} es inválido, debe ser de entre -5000 a 5000")
             return
             
         if i == 0:
